@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Получение данных от сервера</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Задача: получить данные из текстового файла text.txt и вывести их на страницу -->
+    <button class="btn-download">Загрузить</button>
+
+    <ul class="products"></ul>
+
+    <template id="product">
+        <li class="product">
+            <h2 class="product-title"></h2>
+            <img class="product-image">
+            <p class="product-price"></p>
+        </li>
+    </template>
+
+    <!-- FormData -->
+    <hr>
+
+    <form action="#" class="feedback">
+        <label for="">
+            Имя: <input type="text" name="fio">
+        </label>
+
+        <label>
+            Тел: <input type="tel" name="phone">
+        </label>
+
+        <label>
+            Почта: <input type="email" name="email">
+        </label>
+
+        <input type="submit" value="Отправить">
+        
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

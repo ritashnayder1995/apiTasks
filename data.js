@@ -1,0 +1,24 @@
+// JSONP
+window.___assortmentData([
+    {
+    inStock: true,
+    isHit: false
+    },
+    {
+    inStock: false,
+    isHit: false
+    },
+    {
+    inStock: true,
+    isHit: true
+    },
+    {
+    inStock: true,
+    isHit: false
+    },
+    {
+    inStock: false,
+    isHit: false
+    }
+]);
+
